@@ -8,8 +8,9 @@
     <!-- <script src="index.js" type="module"></script> -->
 </head>
 <body ng-app="my-app">
-    <div ng-controller="test-controller">
-    <input type="text" ng-model="inputData">
+    <div ng-controller="test-controller" ng-cloak>
+    <input type="text" ng-model="inputData" />
+        HOY PAG CHANGE
     <h4>{{inputData}}</h4>
     TEST HERE i am changed
         {{testdata}}
